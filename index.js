@@ -196,7 +196,18 @@ const students = [
   
   console.log(findStudentById(10,students));
   
+//   or
+
+function findStudentById(studentId, students) {
+    // Your code here
+
+    return students.filter(student => student.id === studentId);
   
+  }
+  
+  console.log(findStudentById(10,students));
+
+
   //   not required
   /**********
     Question 8: 🌶️🌶️🌶️
